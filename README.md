@@ -1,10 +1,10 @@
 Work done as part of the exam.
 To get started: In DatabaseContext.cs, change the DataSource to yours.
 Database script:
-
+```
 CREATE DATABASE [CafeHubDb]
-
-
+```
+```
 USE [CafeHubDb]
 CREATE TABLE [dbo].[Orders](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
@@ -42,3 +42,4 @@ CREATE TABLE [dbo].[Users](
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
+```
